@@ -74,8 +74,7 @@ block{
     cursor:pointer ;
     color: #FFA500;
     filter: brightness (100%);
-    box-shadow: 3px 3px 10px #FFF6E6;
-    text-shadow: 3px 3px 10px #FFF6E6;
+    box-shadow: 3px 3px 10px #FFF6E6
 }
 
 #close {
@@ -83,6 +82,7 @@ block{
     margin-right: 8.5%;
     margin-top: 5%;
     background-color: #FFF6E6;
+    border: groove;
     width: 13%;
     height: 50%;
     font-size: 1.0em;
@@ -93,5 +93,6 @@ block{
 #close:hover {
     background-color: red;
     color: white;
+    border: ridge;
     box-shadow: 4px 4px 10px #888888;
 }
