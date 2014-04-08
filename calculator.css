@@ -91,7 +91,7 @@ block{
 }
 
 #close:hover {
-    background-color: red;
+    background-color: #FFA500;
     color: white;
     border: ridge;
     box-shadow: 4px 4px 10px #888888;
