@@ -6,7 +6,7 @@ block{
 #calculatorBody{
     width: 200px;
     height: 300px;
-    border: 8px #8D198D;
+    border: 8px #483D8B;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     border-top-left-radius: 16px;
@@ -25,47 +25,47 @@ block{
 }
 
 #display {
-    color: #A64DA6;
-    font-family: "Ceviche One", cursive;
-    font-size: 3em;
+    color: #787878;
+    font-family: "Nova Square", cursive;
+    font-size: 1.2em;
     padding: 2px 0px;
 }
 
 .buttonRow1 {
     width: 100%;
     height: 16%;
-    background-color: #FFC966;
+    background-color: #787878;
 }
 
 .buttonRow2 {
     width: 100%;
     height: 16%;
-    background-color: #FFC966;
+    background-color: #787878;
     border-bottom-left-radius:8px;
     border-bottom-right-radius:8px;
 }
 
 #displaySection input {
     width: 80%;
-    height: 70%;
+    height: 60%;
     background-color: #FFF6E6;
-    margin:2%;
+    margin:4%;
     text-align: right;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .numberButton {
-    width: 20%;
-    height: 70%;
-    background-color: #660066;
+    width: 24.8%;
+    height: 98%;
+    background-color: #F0F0F0;
     float: left;
-    margin: 2%;
-    color: #FFFFFF;
-    font-size: 1.3em;
-    font-family:"Londrina Outline",cursive;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    margin: 0.1%;
+    color: #787878;
+    font-size: 1.0em;
+    font-family:"Nova Square", cursive;
     box-shadow: 1.5px 1.5px 5px #888888;
     
 }
@@ -79,20 +79,20 @@ block{
 
 #close {
     float: right;
-    margin-right: 8.5%;
-    margin-top: 5%;
+    margin: 0.1%;
     background-color: #FFF6E6;
     border: groove;
-    width: 13%;
-    height: 50%;
+    width: 24.8%;
+    height: 98%;
     font-size: 1.0em;
     font-family: "Ceviche One", cursive;
-    padding: 0px 2px;  
+    color: #787878;
+    padding: 0% 0.75%;  
 }
 
 #close:hover {
     background-color: #FFA500;
     color: white;
     border: ridge;
-    box-shadow: 4px 4px 10px #888888;
+    box-shadow: 4px 4px 10px #FFF6E6;
 }
